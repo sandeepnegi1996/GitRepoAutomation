@@ -7,7 +7,7 @@ print(".........Starting the script..........")
 pName=str(sys.argv[1])
 pDescription=str(sys.argv[2])
 user=str(sys.argv[3])
-passwordUSer=str(sys.argv[4])
+passwordUser=str(sys.argv[4])
 
 
 
