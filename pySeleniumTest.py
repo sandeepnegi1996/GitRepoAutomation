@@ -27,7 +27,7 @@ driver.find_element_by_xpath("/html/body/div[3]/main/div/form/div[3]/input[2]").
 
 #clickint the login button
 
-driver.find_element_by_xpath("/html/body/div[3]/main/div/form/div[3]/input[7]").click()
+driver.find_element_by_xpath("/html/body/div[3]/main/div/form/div[3]/input[8]").click()
 
 #clicking on creating a new repository
 driver.find_element_by_xpath("/html/body/div[4]/div/aside[1]/div[2]/div/div/h2/a").click()
