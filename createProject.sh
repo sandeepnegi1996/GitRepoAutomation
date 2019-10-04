@@ -45,3 +45,10 @@ echo "#######  calling python script..... "
 
 python pySeleniumTest.py $projectName $description $userName $password
 
+echo "End of Script..."
+
+# next step is to clone the repository
+# and make a initial commit 
+
+
+
