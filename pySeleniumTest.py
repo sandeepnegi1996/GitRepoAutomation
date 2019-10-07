@@ -1,11 +1,8 @@
-
-#....................................
-
 import sys
 from selenium import webdriver
 driver = webdriver.Chrome("C:\\chromedriver.exe")
 
-print(".........Starting the script..........")
+printf (".........Starting the script..........")
 
 # taking the command line arguements and converting to string...
 

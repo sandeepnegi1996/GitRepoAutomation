@@ -18,8 +18,16 @@ echo "#######  calling python script..... "
 #we are running python script with the command line arguments of project name , description,username,password
 #in the python script we are using selenium and chrome we driver to go to github.com and click on various links.. 
 
+read -p "Sure you want to create Repository press (y/n) ?" response
 
-python pySeleniumTest.py $projectName $description $userName $password
+if [ $response=='y' ]
+then
+	echo "Calling Python Script ..."
+	python pySeleniumTest.py $projectName $description $userName $password
+else
+	echo "Exiting..."
+	exit 0
+fi
 
 echo "End of Script..."
 
