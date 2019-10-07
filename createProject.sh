@@ -2,40 +2,16 @@
 
 
 echo "### Python Automation script...."
-echo "Enter the Project Name.... "
 
+read -p "Enter the Project Name : " projectName
 
-# this will read the project name from console...
-echo "Enter the Project Name.... "
-read projectName
+read -p "Enter the Project Description : " description
 
+read -p "Enter the email adress: " userName
 
-printf "\n"
+read -s -p "Enter the password: " password
 
-# I have to work on reading a project description with multilines
-# since right now i am just taking a single word...
-echo "Enter the project description..."
-read description
-
-printf "\n"
-
-# Enter the github useremai adress
-echo "Enter the user email address..."
-read userName
-
-printf "\n"
-
-#this should also be omitted it should be done with the access token we get from the github
-
-echo "Enter the password...."
-read password
-
-printf "\n"
-
-#this will print whatever we have added to the terminal
-
-echo "Entered details are...Project:  $projectName description: $description username: $userName and passowrd: $password "
-
+echo "Entered details are...Project:  $projectName description: $description username: $userName "
 
 echo "#######  calling python script..... "
 
